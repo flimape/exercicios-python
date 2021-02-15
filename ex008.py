@@ -1,0 +1,5 @@
+n = float(input('Digite uma medida em metros para converte-la em cm e mm: '))
+cm = n / float(0.010000)
+mm = n / float(0.0010000)
+print('{} é {}cm \n {} é {}mm' .format(n, cm, n, mm))
+input()
